@@ -68,6 +68,9 @@ nav ul li{
     margin: 0 15px;
     border-radius: 15px;
 }
+.songNames i{
+    cursor: pointer;
+}
 .buttom{
     position: sticky;
     background-color: black;
@@ -80,7 +83,8 @@ nav ul li{
     bottom: 0;
 }
 #myprogressBar{
-    width: 100vh;
+    width: 150vh;
+    cursor: pointer;
 }
 
 .icons i{
@@ -89,4 +93,9 @@ nav ul li{
 
 #playingIcons{
     padding:5px 15px ;
+}
+.wave{
+    position: absolute;
+    left: 21vh;
+    opacity: 0;
 }
